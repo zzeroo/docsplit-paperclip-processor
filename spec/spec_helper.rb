@@ -1,6 +1,5 @@
 require 'paperclip'
 require 'paperclip/railtie'
-require 'filemagic'
 require 'docsplit'
 require 'docsplit-paperclip-processor'
 
