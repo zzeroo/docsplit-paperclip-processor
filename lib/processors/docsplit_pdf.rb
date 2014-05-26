@@ -18,10 +18,7 @@ module Paperclip
     end
 
     def pdf_format?
-      file_magic = FileMagic.new
-      type = file_magic.file(src_path)
-      file_magic.close
-      type =~ /pdf/i
+      src_path.downcase.include? '.pdf'
     end
   end
 end

@@ -1,6 +1,5 @@
 require "docsplit"
 require "paperclip"
-require "filemagic"
 
 module Paperclip
   class DocsplitProcessor < Processor

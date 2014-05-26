@@ -15,7 +15,6 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "docsplit-paperclip-processor"
 
   s.add_dependency "paperclip", "~> 4.1"
-  s.add_dependency 'ruby-filemagic'
   s.add_dependency 'docsplit'
   s.add_development_dependency 'bundler', ">= 1.1.4"
   s.add_development_dependency 'rspec'
