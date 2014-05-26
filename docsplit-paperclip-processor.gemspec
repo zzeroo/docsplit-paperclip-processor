@@ -6,15 +6,15 @@ Gem::Specification.new do |s|
   s.name        = "docsplit-paperclip-processor"
   s.version     = Docsplit::Paperclip::Processor::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Tien Le"]
-  s.email       = ["tienlx@gmail.com"]
-  s.homepage    = "https://github.com/tienle/docsplit-paperclip-processor"
+  s.authors     = ["zzeroo"]
+  s.email       = ["co@zzeroo.com"]
+  s.homepage    = "https://github.com/zzeroo/docsplit-paperclip-processor"
   s.summary     = %q{A Paperclip processor for Docsplit}
   s.description = %q{This gem is simple Paperclip processor which uses Docsplit to convert uploaded files to pdf, or extract information/thumbnails from them}
 
   s.rubyforge_project = "docsplit-paperclip-processor"
 
-  s.add_dependency "paperclip", "~> 3.1"
+  s.add_dependency "paperclip", "~> 4.1"
   s.add_dependency 'ruby-filemagic'
   s.add_dependency 'docsplit'
   s.add_development_dependency 'bundler', ">= 1.1.4"
