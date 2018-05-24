@@ -1,3 +1,6 @@
+New in 0.2.4:
+Feature: Update to paperclip 5.2
+
 New in 0.2.2:
 Feature: Added ability to save extracted text back to an ActiveRecord model's field
 Documentation: Updated docs for extracting text and listed dependencies
@@ -6,7 +9,7 @@ New in 0.2.1:
 Feature: Added Paperclip::DocsplitText for text extraction
 
 New in 0.2.0:
-API CHANGE: Rails.logger no longer called 
+API CHANGE: Rails.logger no longer called
 Bug Fix: Was calling PaperclipError, now calls Paperclip::Error
 Test Coverage: Specs added for DocsplitProcessor, DocsplitPdf, DocsplitImage.
 Feature: Added docsplit as a dependency
